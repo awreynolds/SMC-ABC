@@ -1,0 +1,36 @@
+PLINK v1.90b4.9 64-bit (13 Oct 2017)
+Options in effect:
+  --bfile xals_worels_qcd
+  --chr 22
+  --homozyg
+  --homozyg-kb 500
+  --homozyg-snp 50
+  --homozyg-window-het 1
+  --homozyg-window-missing 2
+  --keep xaltocaninds.txt
+  --out testchr22_ROH
+
+Hostname: austin
+Working directory: /home/austin/Desktop/rejector_xaltocan
+Start time: Wed Jun 12 10:03:36 2019
+
+Random number seed: 1560359016
+15896 MB RAM detected; reserving 7948 MB for main workspace.
+5049 out of 358560 variants loaded from .bim file.
+114 people (65 males, 48 females, 1 ambiguous) loaded from .fam.
+Ambiguous sex ID written to testchr22_ROH.nosex .
+114 phenotype values loaded from .fam.
+--keep: 41 people remaining.
+Warning: Ignoring phenotypes of missing-sex samples.  If you don't want those
+phenotypes to be ignored, use the --allow-no-sex flag.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 41 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+5049 variants and 41 people pass filters and QC.
+Among remaining phenotypes, 0 are cases and 40 are controls.  (1 phenotype is
+missing.)
+--homozyg: Scan complete, found 186 ROH.
+Results saved to testchr22_ROH.hom + testchr22_ROH.hom.indiv +
+testchr22_ROH.hom.summary .
+
+End time: Wed Jun 12 10:03:37 2019
